@@ -58,7 +58,8 @@ Iteratively approximates the square root of a number using the formula: x = (x/2
 Finds a root of the equation x³ + 4x² - 10 = 0 in a given interval using the bisection method.
 
 ### Fixed-Point Iteration
-Uses fixed-point iteration to solve the equation x³ + 4x² - 10 = 0.
+Uses fixed-point iteration to solve the equation 1: x³ + 4x² - 10 = 0.
+Or to solve the equation 2:  \frac{\sqrt{10 - p_0^3}}{2}.
 
 ### Newton-Raphson Method
 Implements the Newton-Raphson method to find a root of the equation cos(x) = x.
