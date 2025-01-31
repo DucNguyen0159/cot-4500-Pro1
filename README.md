@@ -1,12 +1,11 @@
 # Numerical Methods Implementation
 
-This project implements 4 numerical methods for solving equations and finding roots:
 - Approximation Algorithm
 - Bisection Method
 - Fixed-Point Iteration
 - Newton-Raphson Method
 
-## Installation Instruction:
+### Installation Instruction:
 
 1. Clone the repository:
 ```bash
