@@ -59,17 +59,10 @@ Finds a root of the equation x³ + 4x² - 10 = 0 in a given interval using the b
 
 ### Fixed-Point Iteration
 Uses fixed-point iteration to solve the equation 1: x³ + 4x² - 10 = 0.
-Or to solve the equation 2:  \frac{\sqrt{10 - p_0^3}}{2}.
+Or to solve the equation 2:  sqrt(10 - x³) / 2.
 
 ### Newton-Raphson Method
 Implements the Newton-Raphson method to find a root of the equation cos(x) = x.
 
-## Requirements
-- Python 3.x
-- pytest
-
 ## Author
-[Your Name]
-
-## License
-[Your chosen license]
+[Duc Nguyen]
