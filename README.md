@@ -1,26 +1,12 @@
 # Numerical Methods Implementation
 
-This project implements various numerical methods for solving equations and finding roots, including:
+This project implements 4 numerical methods for solving equations and finding roots:
 - Approximation Algorithm
 - Bisection Method
 - Fixed-Point Iteration
 - Newton-Raphson Method
 
-## Project Structure
-
-```
-src/
-├── main/
-│   ├── __init__.py
-│   └── assignment_1.py
-├── test/
-│   ├── __init__.py
-│   └── test_assignment_1.py
-├── requirements.txt
-└── README.md
-```
-
-## Installation
+## Installation Instruction:
 
 1. Clone the repository:
 ```bash
@@ -35,14 +21,6 @@ cd <project-directory>
 3. Install required dependencies:
 ```bash
 pip install -r requirements.txt
-```
-
-## Usage
-
-The main implementation is in `src/main/assignment_1.py`. You can run the program using:
-
-```bash
-python -m src.main.assignment_1
 ```
 
 ### Available Methods
