@@ -12,10 +12,7 @@
 2. If you want to check test_assignment_1.py (pretty much the same as assignment_1.py):
    - Download and put test_assignment_1.py in the folder containing assignment_1
    - Change ```from ..main.assignment_1 import``` to ```from assignment_1 import```
-   - Install required library (pytest):
-```bash
-pip install -r requirements.txt
-```
+   - Install required library (pytest)
 
 ### Available Methods
 
@@ -51,4 +48,4 @@ Equation 2:  sqrt(10 - x³) / 2.
 cos(x) = x.
 
 ## Author
-[Duc Nguyen]
+Duc Nguyen
