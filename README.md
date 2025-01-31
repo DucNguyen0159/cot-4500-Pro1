@@ -35,28 +35,20 @@ pip install -r requirements.txt
    - Input: Initial guess, tolerance, maximum iterations
    - Usage: `newton_raphson(math.pi/4, 0.000001, 50)`
 
-## Testing
-
-Run the tests using pytest:
-
-```bash
-pytest src/test/test_assignment_1.py
-```
-
-## Method Details
+## Equations Used in Methods
 
 ### Approximation Algorithm
-Iteratively approximates the square root of a number using the formula: x = (x/2) + (1/x)
+x = (x/2) + (1/x)
 
 ### Bisection Method
-Finds a root of the equation x³ + 4x² - 10 = 0 in a given interval using the bisection method.
+x³ + 4x² - 10
 
 ### Fixed-Point Iteration
-Uses fixed-point iteration to solve the equation 1: x³ + 4x² - 10 = 0.
-Or to solve the equation 2:  sqrt(10 - x³) / 2.
+Equation 1: x³ + 4x² - 10 (default, change to use equation 2 if needed).
+Equation 2:  sqrt(10 - x³) / 2.
 
 ### Newton-Raphson Method
-Implements the Newton-Raphson method to find a root of the equation cos(x) = x.
+cos(x) = x.
 
 ## Author
 [Duc Nguyen]
