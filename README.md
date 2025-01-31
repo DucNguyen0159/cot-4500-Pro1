@@ -7,17 +7,12 @@
 
 ### Installation Instruction:
 
-1. Clone the repository:
-```bash
-git clone <your-repository-url>
-```
+1. Download assignment_1.py and run in VsCode, compare with output.txt
 
-2. Navigate to the project directory:
-```bash
-cd <project-directory>
-```
-
-3. Install required dependencies:
+2. If you want to check test_assignment_1.py (pretty much the same as assignment_1.py):
+   - Download and put test_assignment_1.py in the folder containing assignment_1
+   - Change ```from ..main.assignment_1 import``` to ```from assignment_1 import```
+   - Install required library (pytest):
 ```bash
 pip install -r requirements.txt
 ```
