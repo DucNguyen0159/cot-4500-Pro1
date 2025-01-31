@@ -29,8 +29,8 @@ def bisection_method(tol, left, right, max_iter):
         p = (left + right) / 2
         print(f"{i} : {p}")
         
-        fleft = left**3 + 4 * left**2 - 10
-        fp = p**3 + 4 * p**2 - 10
+        fleft = left * left * left + 4 * left * left - 10
+        fp = p * p * p + 4 * p * p - 10
         
         if (fleft < 0 and fp > 0) or (fleft > 0 and fp < 0):
             right = p
